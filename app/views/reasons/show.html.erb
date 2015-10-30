@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @reason.name %>
+</p>
+
+<p>
+  <strong>popularity:</strong>
+  <%= @moreason.popularity %>
+</p>
+
+<p>
+  <strong>Strength:</strong>
+  <%= @reason.strength %>
+</p>
+
+<%= link_to 'Edit', edit_reason_path(@reason) %> |
+<%= link_to 'Back', reasons_path %>
